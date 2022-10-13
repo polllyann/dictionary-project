@@ -24,7 +24,7 @@ export default function Dictionary() {
     }
 
     return (
-        <div className="Dictionary">
+        <div className="Dictionary text-center" >
             <form onSubmit={search}>
                 <input type="search" onChange={handleKeywordChange}/>
             </form>
